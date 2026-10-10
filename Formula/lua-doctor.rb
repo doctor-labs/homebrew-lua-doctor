@@ -1,8 +1,8 @@
 class LuaDoctor < Formula
   desc "Static security scanner for Lua in embedded firmware: finds remote code execution"
   homepage "https://github.com/doctor-labs/lua-doctor"
-  url "https://github.com/doctor-labs/lua-doctor/releases/download/v@VERSION@/lua-doctor-@VERSION@.tar.gz"
-  sha256 "@SHA256@"
+  url "https://github.com/doctor-labs/lua-doctor/releases/download/v0.6.1/lua-doctor-0.6.1.tar.gz"
+  sha256 "bcbca665dc95cfd559cef6ffc79737882fba51623cfca77d5e57674d46ece85c"
   license "MIT"
 
   depends_on "lua"
